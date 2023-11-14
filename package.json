@@ -1,0 +1,30 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Test Automation project using Cypress in typescript and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darvycg/cypress-cucumber.git"
+  },
+  "keywords": [
+    "test",
+    "automation",
+    "e2e",
+    "api",
+    "cicd"
+  ],
+  "author": "Darvy Ceron Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darvycg/cypress-cucumber/issues"
+  },
+  "homepage": "https://github.com/darvycg/cypress-cucumber#readme",
+  "devDependencies": {
+    "cypress": "^13.5.0",
+    "typescript": "^5.2.2"
+  }
+}
