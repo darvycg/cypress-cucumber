@@ -4,7 +4,7 @@
   "description": "Test Automation project using Cypress in typescript and cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "e2e:local": "npx cypress open"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,15 @@
   "devDependencies": {
     "cypress": "^13.5.0",
     "typescript": "^5.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "json": {
+      "enabled": true
+    }
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
   }
 }
